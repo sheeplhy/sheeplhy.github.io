@@ -1,0 +1,11 @@
+title: 绵羊的技术博客
+description: 分享编程、工具与技术实践
+theme: minima
+lang: zh-CN
+timezone: Asia/Shanghai
+
+author:
+  name: sheeplyh
+
+header_pages:
+  - about.md
