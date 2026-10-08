@@ -63,10 +63,11 @@ img { max-width: 100%; }
 
 .hero { min-height: 720px; display: grid; align-items: center; overflow: hidden; }
 .hero-grid { display: grid; grid-template-columns: 1.12fr .88fr; align-items: center; gap: clamp(40px, 7vw, 92px); padding-block: 92px; }
+.hero-copy { min-width: 0; }
 .eyebrow, .kicker { margin: 0 0 16px; color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
 .hero h1 { max-width: 760px; margin: 0; font-size: clamp(44px, 6vw, 78px); line-height: 1.06; letter-spacing: -.055em; }
 .hero h1 span { display: block; }
-.hero-intro { max-width: 650px; margin: 28px 0 0; color: var(--muted); font-size: clamp(17px, 1.8vw, 21px); }
+.hero-intro { max-width: 650px; margin: 28px 0 0; color: var(--muted); font-size: clamp(17px, 1.8vw, 21px); line-break: anywhere; overflow-wrap: anywhere; }
 .hero-actions { display: flex; gap: 12px; margin-top: 34px; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border: 1px solid transparent; border-radius: 14px; font-size: 14px; font-weight: 700; transition: transform .2s ease, box-shadow .2s ease; }
 .button:hover { transform: translateY(-2px); }
