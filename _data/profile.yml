@@ -1,20 +1,20 @@
-eyebrow: Consumer Electronics · Mobile Imaging · Computer Vision
-headline: 让移动影像与智能终端，拥有更可靠的视觉体验。
-intro: 聚焦消费电子、Android/iOS 系统、摄像头 ISP、计算机视觉与图像处理，记录从测试验证到算法实践的工程思考。
+eyebrow: Software Engineering · Intelligent Devices
+headline: 用专业软件工程，连接 App、视觉算法与消费电子。
+intro: 软件工程专业，聚焦 iOS / Android 系统与 App、计算机视觉、消费电子和嵌入式软件，记录从需求、开发到测试验证的完整工程实践。
 
 focus:
-  - title: 移动系统
+  - title: iOS / Android App
     icon: "01"
-    text: 关注 Android / iOS 系统体验、相机链路、稳定性、兼容性与自动化测试。
-  - title: ISP 与影像
+    text: 关注移动系统体验、App 功能实现、相机与多媒体链路、兼容性和质量保障。
+  - title: 计算机视觉
     icon: "02"
-    text: 熟悉 RAW 域处理、3A、降噪、色彩、HDR 与图像质量验证流程。
-  - title: 视觉算法
-    icon: "03"
     text: 使用 Python、OpenCV 完成图像处理、人脸检测、数据预处理与模型训练。
-  - title: 测试工程
+  - title: 消费电子
+    icon: "03"
+    text: 面向智能眼镜、显示设备与移动终端，参与 Camera、ISP、画质和整机验证。
+  - title: 嵌入式软件
     icon: "04"
-    text: 具备显示、影像、接口与软硬件联合测试经验，重视问题复现与闭环。
+    text: 基于 ESP32-S3 等平台开展传感器融合、软硬件联调与端侧功能原型实践。
 
 projects:
   - name: 虹膜识别模型训练
@@ -29,3 +29,35 @@ projects:
     tag: Embedded
     text: 融合视觉、惯性、超声波、GPS 与语音模块，完成多传感器辅助原型。
     link: /projects/#esp32-s3-智能导盲杖
+
+experience:
+  - company: 雷鸟创新（深圳）有限公司
+    role: 感知算法部实习生 · Camera / ISP
+    date: 2026.08 — 至今
+    logo: /assets/images/logo-rayneo.png
+    logo_class: logo-light
+    url: https://rayneo.cn/
+    highlight: 参与雷鸟 V4 Camera 影像链路调试与质量验证。
+    details:
+      - 覆盖 RAW 域、3A、降噪与色彩管理等 ISP 模块，协助完成问题定位和迭代优化。
+      - 参与 AE、AWB、AF 参数调试、场景测试、标定与回归验证。
+  - company: TCL 实业
+    role: 硬件测试组实习生
+    date: 2026.07 — 2026.08
+    logo: /assets/images/logo-tcl.svg
+    logo_class: logo-light
+    url: https://www.tcl.com/cn/zh
+    highlight: 参与消费电子显示设备的整机质量验证。
+    details:
+      - 开展光学、电气、功能与可靠性测试，使用亮度和色彩分析设备完成数据采集。
+      - 跟进坏点、色偏、闪烁与亮度不均问题，输出报告并推动缺陷闭环。
+  - company: 为升科（上海）科技电子有限公司
+    role: 测试工程师 · 车载雷达
+    date: 2024.07 — 2024.09
+    logo: /assets/images/logo-cubtek.png
+    logo_class: logo-dark
+    url: https://www.cubtek.com/
+    highlight: 参与 T6E 雷达适配 A60 车型的测试与交付。
+    details:
+      - 完成硬件适配、BOM 核对、功能测试、数据记录、程序烧录与 SN 修改。
+      - 配合研发团队复现问题、验证修复效果并完成跨团队闭环。

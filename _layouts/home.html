@@ -14,25 +14,21 @@ layout: default
         <a class="button button-secondary" href="{{ '/about/' | relative_url }}">了解更多</a>
       </div>
       <ul class="hero-meta" aria-label="技术关键词">
-        <li>Android / iOS</li>
-        <li>ISP &amp; 3A</li>
-        <li>OpenCV</li>
-        <li>Image Quality</li>
+        <li>iOS / Android App</li>
+        <li>Computer Vision</li>
+        <li>Consumer Electronics</li>
+        <li>Embedded Software</li>
       </ul>
     </div>
 
-    <div class="vision-panel" aria-hidden="true">
-      <div class="sensor-frame">
-        <div class="scan-line"></div>
-        <div class="focus-box focus-box-a"></div>
-        <div class="focus-box focus-box-b"></div>
-        <div class="sensor-core">
-          <span>VISION</span>
-          <strong>ISP / CV</strong>
-        </div>
+    <div class="vision-panel">
+      <img class="hero-visual" src="{{ '/assets/images/hero-consumer-software-v2.webp' | relative_url }}" alt="智能眼镜、移动设备、嵌入式开发板与计算机视觉元素组成的软件工程视觉图">
+      <div class="vision-caption">
+        <span>SOFTWARE × VISION × DEVICE</span>
+        <strong>从代码到真实产品</strong>
       </div>
       <div class="vision-readout">
-        <span>AE 1/120</span><span>AWB 5200K</span><span>AF LOCK</span>
+        <span>APP</span><span>CV / ISP</span><span>EMBEDDED</span>
       </div>
     </div>
   </div>
@@ -51,6 +47,42 @@ layout: default
         <p>{{ item.text }}</p>
       </article>
     {% endfor %}
+  </div>
+</section>
+
+<section class="section experience-section">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="kicker">EXPERIENCE</p><h2>实习与工程经历</h2></div>
+      <p>从智能眼镜 Camera 到显示设备和车载雷达，在真实产品项目中连接软件、算法、硬件与质量验证。</p>
+    </div>
+    <div class="experience-layout">
+      <figure class="experience-media">
+        <img src="{{ '/assets/images/internship-v4-camera-lab.webp' | relative_url }}" alt="智能眼镜 Camera 与 ISP 影像质量验证实验台">
+        <figcaption>
+          <span>FEATURED EXPERIENCE</span>
+          <strong>雷鸟 V4 · Camera / ISP</strong>
+        </figcaption>
+      </figure>
+      <div class="experience-list">
+        {% for item in profile.experience %}
+          <article class="experience-item">
+            <div class="experience-topline">
+              <a class="company-logo {{ item.logo_class }}" href="{{ item.url }}" target="_blank" rel="noreferrer" aria-label="访问 {{ item.company }} 官网">
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.company }} Logo">
+              </a>
+              <time>{{ item.date }}</time>
+            </div>
+            <h3>{{ item.company }}</h3>
+            <p class="experience-role">{{ item.role }}</p>
+            <p class="experience-highlight">{{ item.highlight }}</p>
+            <ul>
+              {% for detail in item.details %}<li>{{ detail }}</li>{% endfor %}
+            </ul>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </section>
 
