@@ -1,11 +1,11 @@
-eyebrow: Software Engineering · Intelligent Devices
+eyebrow: Faylen Liu · Software Engineering
 headline: 用专业软件工程，连接 App、视觉算法与消费电子。
-intro: 软件工程专业，聚焦 iOS / Android 系统与 App、计算机视觉、消费电子和嵌入式软件，记录从需求、开发到测试验证的完整工程实践。
+intro: 软件工程专业，聚焦 iOS / Android 系统 App 开发、计算机视觉、消费电子和嵌入式软件，记录从需求、开发到测试验证的完整工程实践。
 
 focus:
-  - title: iOS / Android App
+  - title: iOS / Android 系统 App 开发
     icon: "01"
-    text: 关注移动系统体验、App 功能实现、相机与多媒体链路、兼容性和质量保障。
+    text: 聚焦 iOS / Android 系统与 App 开发，关注功能实现、相机与多媒体链路、兼容性和质量保障。
   - title: 计算机视觉
     icon: "02"
     text: 使用 Python、OpenCV 完成图像处理、人脸检测、数据预处理与模型训练。
@@ -17,18 +17,22 @@ focus:
     text: 基于 ESP32-S3 等平台开展传感器融合、软硬件联调与端侧功能原型实践。
 
 projects:
-  - name: 虹膜识别模型训练
-    tag: AI / Vision
-    text: 从数据采集、清洗和增强到模型训练、调参与评估，构建完整视觉训练流程。
-    link: /projects/#虹膜识别模型训练
-  - name: 轻量化人脸考勤工具
-    tag: OpenCV
-    text: 基于 Python 与 OpenCV 实现实时人脸检测、图像降噪和本地考勤记录。
-    link: /projects/#轻量化人脸考勤工具
+  - name: iOS / Android 系统 App 开发
+    tag: Mobile App
+    text: 从需求拆分、界面与功能实现到测试发布，持续整理移动端系统与 App 开发实践。
+    link: /posts/ios-android-app-development/
+  - name: 雷鸟 V4 Camera / ISP
+    tag: Camera / ISP
+    text: 围绕智能眼镜 Camera 影像链路，整理 3A、降噪、色彩和画质验证方法。
+    link: /posts/rayneo-v4-camera-isp/
+  - name: 计算机视觉识别实践
+    tag: AI / OpenCV
+    text: 汇总虹膜识别训练与人脸检测项目中的数据处理、模型评估和工程实现。
+    link: /posts/iris-recognition-pipeline/
   - name: ESP32-S3 智能导盲杖
     tag: Embedded
     text: 融合视觉、惯性、超声波、GPS 与语音模块，完成多传感器辅助原型。
-    link: /projects/#esp32-s3-智能导盲杖
+    link: /posts/esp32-s3-smart-cane/
 
 experience:
   - company: 雷鸟创新（深圳）有限公司

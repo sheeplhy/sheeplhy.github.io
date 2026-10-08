@@ -1,10 +1,10 @@
 <header class="site-header">
   <div class="shell nav-shell">
     <a class="brand" href="{{ '/' | relative_url }}" aria-label="返回首页">
-      <span class="brand-mark">LFY</span>
+      <img class="brand-avatar" src="{{ '/assets/images/faylen-liu-profile.jpg' | relative_url }}" alt="刘飞扬证件照">
       <span class="brand-copy">
-        <strong>刘飞扬</strong>
-        <small>专业软件工程 · 智能终端</small>
+        <strong>Faylen Liu</strong>
+        <small>刘飞扬 · 软件工程</small>
       </span>
     </a>
 
@@ -16,7 +16,7 @@
       <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>首页</a>
       <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' or page.layout == 'post' %} class="active"{% endif %}>文章</a>
       <a href="{{ '/projects/' | relative_url }}"{% if page.url contains '/projects' %} class="active"{% endif %}>项目</a>
-      <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>关于</a>
+      <a href="{{ '/#about' | relative_url }}">关于</a>
       <a class="nav-github" href="https://github.com/sheeplhy" target="_blank" rel="noreferrer">GitHub ↗</a>
       <button class="theme-toggle" type="button" aria-label="切换深色模式"><span>◐</span></button>
     </nav>

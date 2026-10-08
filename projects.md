@@ -13,11 +13,23 @@ permalink: /projects/
 
 ---
 
+## iOS / Android 系统 App 开发
+
+围绕移动端需求拆分、界面与功能实现、相机和多媒体能力、系统兼容性、测试与发布流程建立工程实践记录。
+
+**关键词：** iOS、Android、App、系统能力、软件工程
+
+[阅读技术文章：iOS / Android 系统 App 开发实践 →]({{ '/posts/ios-android-app-development/' | relative_url }})
+
+---
+
 ## 虹膜识别模型训练
 
 基于 Python 深度学习框架开展虹膜识别模型训练，完成图像数据采集、清洗、预处理和数据增强，构建训练数据集并进行模型调参与效果评估。
 
 **关键词：** Python、深度学习、图像预处理、数据增强、模型评估
+
+[阅读技术文章：虹膜识别的数据处理与训练流程 →]({{ '/posts/iris-recognition-pipeline/' | relative_url }})
 
 ---
 
@@ -27,6 +39,8 @@ permalink: /projects/
 
 **关键词：** Python、OpenCV、Haar 分类器、人脸检测、图像降噪
 
+[阅读技术文章：OpenCV 轻量化人脸考勤工具 →]({{ '/posts/opencv-face-attendance/' | relative_url }})
+
 ---
 
 ## ESP32-S3 智能导盲杖
@@ -35,6 +49,8 @@ permalink: /projects/
 
 **关键词：** ESP32-S3、嵌入式、计算机视觉、传感器融合、I2C
 
+[阅读技术文章：ESP32-S3 多传感器嵌入式实践 →]({{ '/posts/esp32-s3-smart-cane/' | relative_url }})
+
 ---
 
 ## 雷鸟 V4 Camera 与 ISP 画质调试
@@ -42,3 +58,5 @@ permalink: /projects/
 围绕雷鸟 V4 智能眼镜 Camera 开展 ISP 影像链路调试与效果验证，覆盖 RAW 域处理、3A、降噪、色彩管理和画质问题定位，并配合研发完成迭代优化。
 
 **关键词：** ISP、AE、AWB、AF、图像质量、参数标定
+
+[阅读技术文章：智能眼镜 Camera / ISP 调试方法 →]({{ '/posts/rayneo-v4-camera-isp/' | relative_url }})

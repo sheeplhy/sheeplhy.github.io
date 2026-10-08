@@ -11,10 +11,10 @@ layout: default
       <p class="hero-intro">{{ profile.intro }}</p>
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/projects/' | relative_url }}">查看项目</a>
-        <a class="button button-secondary" href="{{ '/about/' | relative_url }}">了解更多</a>
+        <a class="button button-secondary" href="#about">关于我</a>
       </div>
       <ul class="hero-meta" aria-label="技术关键词">
-        <li>iOS / Android App</li>
+        <li>iOS / Android 系统 App 开发</li>
         <li>Computer Vision</li>
         <li>Consumer Electronics</li>
         <li>Embedded Software</li>
@@ -29,6 +29,28 @@ layout: default
       </div>
       <div class="vision-readout">
         <span>APP</span><span>CV / ISP</span><span>EMBEDDED</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about-home" id="about">
+  <div class="shell about-home-grid">
+    <figure class="about-photo-card">
+      <img src="{{ '/assets/images/faylen-liu-about.jpg' | relative_url }}" alt="刘飞扬生活照">
+      <figcaption>Faylen Liu · Shenzhen</figcaption>
+    </figure>
+    <div class="about-home-copy">
+      <p class="kicker">ABOUT ME</p>
+      <h2>你好，我是刘飞扬<br><span>Faylen Liu</span></h2>
+      <p class="about-lead">软件工程专业，聚焦 iOS / Android 系统 App 开发、计算机视觉、消费电子与嵌入式软件。</p>
+      <p>我喜欢把软件、算法与真实硬件连接起来：从移动端功能和相机链路，到智能眼镜 Camera / ISP、OpenCV 视觉项目与 ESP32-S3 嵌入式原型。重视清晰的需求拆分、可验证的实现过程，以及问题从复现到闭环的完整记录。</p>
+      <ul class="about-tags" aria-label="个人技术标签">
+        <li>Mobile App</li><li>Computer Vision</li><li>Camera / ISP</li><li>Embedded</li>
+      </ul>
+      <div class="about-actions">
+        <a class="button button-primary" href="{{ '/about/' | relative_url }}">完整介绍</a>
+        <a class="text-link" href="{{ '/blog/' | relative_url }}">阅读技术文章 →</a>
       </div>
     </div>
   </div>
@@ -89,8 +111,8 @@ layout: default
 <section class="section section-tint">
   <div class="shell">
     <div class="section-heading">
-      <div><p class="kicker">PROJECTS</p><h2>项目与实践</h2></div>
-      <a class="text-link" href="{{ '/projects/' | relative_url }}">查看全部项目 →</a>
+      <div><p class="kicker">PROJECTS × WRITING</p><h2>项目与技术文章</h2></div>
+      <a class="text-link" href="{{ '/projects/' | relative_url }}">查看项目索引 →</a>
     </div>
     <div class="project-grid">
       {% for project in profile.projects %}
@@ -98,6 +120,7 @@ layout: default
           <span class="project-tag">{{ project.tag }}</span>
           <h3>{{ project.name }}</h3>
           <p>{{ project.text }}</p>
+          <span class="project-read">打开技术文章</span>
           <span class="project-arrow">↗</span>
         </a>
       {% endfor %}
@@ -126,5 +149,5 @@ layout: default
 <section class="cta shell">
   <p class="kicker">KEEP EXPLORING</p>
   <h2>持续记录，也持续把问题变成可以验证的答案。</h2>
-  <a class="button button-primary" href="{{ '/about/' | relative_url }}">认识我 →</a>
+  <a class="button button-primary" href="#about">认识我 →</a>
 </section>

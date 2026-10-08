@@ -1,12 +1,12 @@
-title: 刘飞扬的技术博客
-description: 软件工程专业技术博客，聚焦 iOS/Android 系统与 App、计算机视觉、消费电子和嵌入式软件
+title: Faylen Liu · 刘飞扬的技术博客
+description: 软件工程专业技术博客，聚焦 iOS/Android 系统 App 开发、计算机视觉、消费电子和嵌入式软件
 url: "https://sheeplhy.github.io"
 baseurl: ""
 lang: zh-CN
 timezone: Asia/Shanghai
 
 author:
-  name: 刘飞扬
+  name: Faylen Liu（刘飞扬）
   github: sheeplhy
 
 permalink: /posts/:title/
