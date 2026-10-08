@@ -27,4 +27,18 @@
       navToggle?.setAttribute('aria-expanded', 'false');
     });
   });
+
+  const copyEmailButton = document.querySelector('[data-copy-email]');
+  copyEmailButton?.addEventListener('click', async function () {
+    const email = copyEmailButton.dataset.copyEmail;
+    try {
+      await navigator.clipboard.writeText(email);
+      copyEmailButton.textContent = '已复制';
+      window.setTimeout(function () {
+        copyEmailButton.textContent = '复制邮箱';
+      }, 1800);
+    } catch (error) {
+      window.location.href = 'mailto:' + email;
+    }
+  });
 })();

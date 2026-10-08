@@ -8,6 +8,7 @@ timezone: Asia/Shanghai
 author:
   name: Faylen Liu（刘飞扬）
   github: sheeplhy
+  email: 15683337662@163.com
 
 permalink: /posts/:title/
 

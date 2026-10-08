@@ -7,9 +7,9 @@ headline_lines:
 intro: 软件工程专业，聚焦 iOS / Android 系统 App 开发、计算机视觉、消费电子与嵌入式软件，持续记录设计、开发、测试与优化的工程实践。
 
 focus:
-  - title: iOS / Android 系统 App 开发
+  - title: iOS / Android App 开发
     icon: "01"
-    text: 聚焦 iOS / Android 系统与 App 开发，关注功能实现、相机与多媒体链路、兼容性和质量保障。
+    text: 聚焦移动 App 开发，覆盖交互界面、业务功能、系统能力接入、接口联调、兼容性测试与发布迭代。
   - title: 计算机视觉
     icon: "02"
     text: 使用 Python、OpenCV 完成图像处理、人脸检测、数据预处理与模型训练。
@@ -21,7 +21,7 @@ focus:
     text: 基于 ESP32-S3 等平台开展传感器融合、软硬件联调与端侧功能原型实践。
 
 projects:
-  - name: iOS / Android 系统 App 开发
+  - name: iOS / Android App 开发实践
     tag: Mobile App
     text: 从需求拆分、界面与功能实现到测试发布，持续整理移动端系统与 App 开发实践。
     link: /posts/ios-android-app-development/
