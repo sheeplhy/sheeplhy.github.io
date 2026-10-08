@@ -1,11 +1,21 @@
-title: 绵羊的技术博客
-description: 分享编程、工具与技术实践
-theme: minima
+title: 刘飞扬的技术博客
+description: 聚焦消费电子、Android/iOS 系统、移动影像、ISP、计算机视觉与图像处理
+url: "https://sheeplhy.github.io"
+baseurl: ""
 lang: zh-CN
 timezone: Asia/Shanghai
 
 author:
-  name: sheeplhy
+  name: 刘飞扬
+  github: sheeplhy
 
-header_pages:
-  - about.md
+permalink: /posts/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

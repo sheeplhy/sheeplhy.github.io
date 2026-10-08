@@ -1,0 +1,31 @@
+eyebrow: Consumer Electronics · Mobile Imaging · Computer Vision
+headline: 让移动影像与智能终端，拥有更可靠的视觉体验。
+intro: 聚焦消费电子、Android/iOS 系统、摄像头 ISP、计算机视觉与图像处理，记录从测试验证到算法实践的工程思考。
+
+focus:
+  - title: 移动系统
+    icon: "01"
+    text: 关注 Android / iOS 系统体验、相机链路、稳定性、兼容性与自动化测试。
+  - title: ISP 与影像
+    icon: "02"
+    text: 熟悉 RAW 域处理、3A、降噪、色彩、HDR 与图像质量验证流程。
+  - title: 视觉算法
+    icon: "03"
+    text: 使用 Python、OpenCV 完成图像处理、人脸检测、数据预处理与模型训练。
+  - title: 测试工程
+    icon: "04"
+    text: 具备显示、影像、接口与软硬件联合测试经验，重视问题复现与闭环。
+
+projects:
+  - name: 虹膜识别模型训练
+    tag: AI / Vision
+    text: 从数据采集、清洗和增强到模型训练、调参与评估，构建完整视觉训练流程。
+    link: /projects/#虹膜识别模型训练
+  - name: 轻量化人脸考勤工具
+    tag: OpenCV
+    text: 基于 Python 与 OpenCV 实现实时人脸检测、图像降噪和本地考勤记录。
+    link: /projects/#轻量化人脸考勤工具
+  - name: ESP32-S3 智能导盲杖
+    tag: Embedded
+    text: 融合视觉、惯性、超声波、GPS 与语音模块，完成多传感器辅助原型。
+    link: /projects/#esp32-s3-智能导盲杖

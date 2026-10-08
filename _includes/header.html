@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="shell nav-shell">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="返回首页">
+      <span class="brand-mark">LFY</span>
+      <span class="brand-copy">
+        <strong>刘飞扬</strong>
+        <small>视觉与影像工程</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="主导航">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>首页</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' or page.layout == 'post' %} class="active"{% endif %}>文章</a>
+      <a href="{{ '/projects/' | relative_url }}"{% if page.url contains '/projects' %} class="active"{% endif %}>项目</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>关于</a>
+      <a class="nav-github" href="https://github.com/sheeplhy" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <button class="theme-toggle" type="button" aria-label="切换深色模式"><span>◐</span></button>
+    </nav>
+  </div>
+</header>

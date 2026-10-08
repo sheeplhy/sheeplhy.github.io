@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<header class="page-hero shell">
+  <p class="kicker">WRITING</p>
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.description }}</p>
+</header>
+<section class="shell blog-index">
+  {% for post in site.posts %}
+    <article class="blog-card">
+      <div class="blog-card-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y.%m.%d' }}</time>
+        {% if post.categories.size > 0 %}<span>{{ post.categories | join: ' / ' }}</span>{% endif %}
+      </div>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+      <a class="text-link" href="{{ post.url | relative_url }}">阅读全文 →</a>
+    </article>
+  {% endfor %}
+</section>
