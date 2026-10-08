@@ -1,5 +1,9 @@
 eyebrow: Faylen Liu · Software Engineering
 headline: 用专业软件工程，连接 App、视觉算法与消费电子。
+headline_lines:
+  - 用专业软件工程，
+  - 连接 App、视觉算法
+  - 与消费电子。
 intro: 软件工程专业，聚焦 iOS / Android 系统 App 开发、计算机视觉、消费电子和嵌入式软件，记录从需求、开发到测试验证的完整工程实践。
 
 focus:

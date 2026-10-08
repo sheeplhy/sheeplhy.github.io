@@ -7,7 +7,7 @@ layout: default
   <div class="hero-grid shell">
     <div class="hero-copy">
       <p class="eyebrow">{{ profile.eyebrow }}</p>
-      <h1>{{ profile.headline }}</h1>
+      <h1>{% for line in profile.headline_lines %}<span>{{ line }}</span>{% endfor %}</h1>
       <p class="hero-intro">{{ profile.intro }}</p>
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/projects/' | relative_url }}">查看项目</a>
