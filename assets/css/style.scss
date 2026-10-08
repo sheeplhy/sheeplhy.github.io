@@ -195,7 +195,7 @@ img { max-width: 100%; }
   .site-nav.open { display: grid; }
   .site-nav a, .theme-toggle { text-align: left; }
   .brand-copy small { display: none; }
-  .hero h1 { font-size: 44px; }
+  .hero h1 { font-size: clamp(36px, 10.2vw, 40px); line-break: anywhere; overflow-wrap: anywhere; }
   .hero-actions { flex-direction: column; }
   .about-home-grid { grid-template-columns: 1fr; }
   .about-photo-card { max-width: 220px; }
