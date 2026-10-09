@@ -21,10 +21,10 @@ focus:
     text: 基于 ESP32-S3 等平台开展传感器融合、软硬件联调与端侧功能原型实践。
 
 projects:
-  - name: iOS / Android App 开发实践
-    tag: Mobile App
-    text: 从需求拆分、界面与功能实现到测试发布，持续整理移动端系统与 App 开发实践。
-    link: /posts/ios-android-app-development/
+  - name: DriveLink Hub
+    tag: Windows App
+    text: 基于 .NET 8 与 WPF 构建车载互联原型，编排 Android Auto DHU 与 iPhone AirPlay 接收流程。
+    link: /posts/drivelink-hub-windows-automotive-projection/
   - name: 雷鸟 V4 Camera / ISP
     tag: Camera / ISP
     text: 围绕智能眼镜 Camera 影像链路，整理 3A、降噪、色彩和画质验证方法。

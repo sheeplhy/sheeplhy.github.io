@@ -13,6 +13,18 @@ permalink: /projects/
 
 ---
 
+## DriveLink Hub：Windows 车载互联原型
+
+基于 .NET 8、WPF 与 MVVM 构建 Windows 车载娱乐前端，分别编排 Google Android Auto DHU 和 UxPlay/AirPlay 接收流程，并通过状态机、attempt id、独立进程与脱敏诊断处理连接生命周期和异常恢复。
+
+**关键词：** .NET 8、WPF、MVVM、Android Auto、AirPlay、状态机
+
+[阅读技术文章：DriveLink Hub 的设计与实现 →]({{ '/posts/drivelink-hub-windows-automotive-projection/' | relative_url }})
+
+[查看 GitHub 项目仓库 →](https://github.com/sheeplhy/DriveLink-Hub)
+
+---
+
 ## iOS / Android 系统 App 开发
 
 围绕移动端需求拆分、界面与功能实现、相机和多媒体能力、系统兼容性、测试与发布流程建立工程实践记录。
