@@ -5,7 +5,7 @@
 <h1 align="center">Faylen Liu · 刘飞扬</h1>
 
 <p align="center">
-  <strong>软件工程 · App 开发 · AI 应用 · 计算机视觉 · 产品思维 · 智能硬件</strong>
+  <strong>App 开发 · AI 应用 · 计算机视觉 · 智能硬件</strong>
 </p>
 
 <p align="center">
@@ -17,6 +17,12 @@
   ·
   <a href="mailto:15683337662@163.com"><strong>联系我</strong></a>
 </p>
+
+<p align="center"><strong>个人技术博客与项目作品集</strong></p>
+
+<h2 align="center">
+  <a href="https://sheeplhy.github.io/">https://sheeplhy.github.io/</a>
+</h2>
 
 ---
 
@@ -38,11 +44,3 @@
 ## 产品思维
 
 重视用户需求、使用场景与技术实现之间的联系。习惯先拆解问题和核心目标，再完成方案设计、功能实现、可用性验证与迭代优化，并通过文档记录关键选择和问题闭环。
-
----
-
-<p align="center"><strong>个人技术博客与项目作品集</strong></p>
-
-<h2 align="center">
-  <a href="https://sheeplhy.github.io/">https://sheeplhy.github.io/</a>
-</h2>
