@@ -64,32 +64,6 @@ _posts/      Markdown 技术文章
 assets/      样式、脚本与图片资源
 ```
 
-<details>
-<summary><strong>如何发布一篇新文章</strong></summary>
-
-在 `_posts` 目录中创建 Markdown 文件，文件名格式为：
-
-```text
-YYYY-MM-DD-english-title.md
-```
-
-文章开头使用 Jekyll Front Matter：
-
-```yaml
----
-layout: post
-title: "文章标题"
-description: 一句话摘要
-date: 2026-10-10 12:00:00 +0800
-categories: [App开发, 软件工程]
-permalink: /posts/english-title/
----
-```
-
-提交到 `main` 分支后，GitHub Pages 会自动构建并发布。
-
-</details>
-
 ## 联系方式
 
 - GitHub：[@sheeplhy](https://github.com/sheeplhy)
