@@ -2,7 +2,7 @@
 layout: post
 title: "火花管家：用 Flutter 与本地 Agent 设计隐私优先的互动管理工具"
 description: 复盘 Flutter 手机端、Python 执行端、定时计划与安全边界的设计，并说明项目当前完成度与限制。
-date: 2026-10-10 00:10:00 +0800
+date: 2026-07-29 00:10:00 +0800
 categories: [Flutter, App开发, 软件工程]
 permalink: /posts/spark-keeper-flutter-local-agent/
 ---

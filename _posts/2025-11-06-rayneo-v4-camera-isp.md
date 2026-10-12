@@ -2,7 +2,7 @@
 layout: post
 title: "智能眼镜 Camera / ISP 调试方法"
 description: 以雷鸟 V4 Camera 项目经历为背景，整理可公开的影像调试与质量验证方法。
-date: 2026-10-08 10:40:00 +0800
+date: 2025-11-06 10:40:00 +0800
 categories: [消费电子, Camera, ISP]
 permalink: /posts/rayneo-v4-camera-isp/
 ---

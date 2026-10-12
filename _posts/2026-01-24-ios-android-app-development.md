@@ -2,7 +2,7 @@
 layout: post
 title: "iOS / Android 系统 App 开发实践"
 description: 从需求拆分、系统能力接入到测试发布的移动端 App 工程记录。
-date: 2026-10-08 10:50:00 +0800
+date: 2026-01-24 10:50:00 +0800
 categories: [移动开发, 软件工程]
 permalink: /posts/ios-android-app-development/
 ---

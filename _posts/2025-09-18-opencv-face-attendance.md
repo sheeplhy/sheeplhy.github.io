@@ -2,7 +2,7 @@
 layout: post
 title: "OpenCV 轻量化人脸考勤工具"
 description: 使用 Python 与 OpenCV 完成人脸检测、图像预处理和本地记录。
-date: 2026-10-08 10:20:00 +0800
+date: 2025-09-18 10:20:00 +0800
 categories: [计算机视觉, OpenCV]
 permalink: /posts/opencv-face-attendance/
 ---

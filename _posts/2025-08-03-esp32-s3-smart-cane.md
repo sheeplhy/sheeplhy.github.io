@@ -2,7 +2,7 @@
 layout: post
 title: "ESP32-S3 多传感器智能导盲杖"
 description: 记录摄像头、惯性、超声波、GPS 与语音模块的嵌入式集成实践。
-date: 2026-10-08 10:10:00 +0800
+date: 2025-08-03 10:10:00 +0800
 categories: [嵌入式软件, 智能硬件]
 permalink: /posts/esp32-s3-smart-cane/
 ---

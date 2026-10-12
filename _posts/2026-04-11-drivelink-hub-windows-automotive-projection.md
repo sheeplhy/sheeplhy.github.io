@@ -2,7 +2,7 @@
 layout: post
 title: "DriveLink Hub：用 .NET 8 与 WPF 搭建 Windows 车载互联原型"
 description: 从双手机生态接入、会话状态机到外部进程管理，复盘一个 Windows 车载娱乐前端的设计与实现。
-date: 2026-10-09 10:00:00 +0800
+date: 2026-04-11 10:00:00 +0800
 categories: [App开发, Windows, 软件工程]
 permalink: /posts/drivelink-hub-windows-automotive-projection/
 ---
@@ -132,4 +132,3 @@ DriveLink Hub 对我而言，更有价值的部分不是做出一张“像车机
 项目仍会继续调整。如果你想查看源码、运行条件或后续更新，可以访问：
 
 **[GitHub：sheeplhy/DriveLink-Hub](https://github.com/sheeplhy/DriveLink-Hub)**
-
