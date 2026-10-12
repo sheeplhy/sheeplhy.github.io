@@ -2,7 +2,7 @@
 layout: post
 title: "我的第一版虹膜分割模型：从像素分割到虹膜识别与瞳距检测"
 description: 记录个人第一版虹膜分割项目的训练过程、真实照片效果、当前不足，以及虹膜识别和椭圆拟合瞳距检测的后续设想。
-date: 2026-10-12 20:10:00 +0800
+date: 2026-10-12 18:40:00 +0800
 categories: [计算机视觉, 深度学习, 生物识别]
 permalink: /posts/iris-recognition-pipeline/
 ---
