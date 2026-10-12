@@ -35,13 +35,15 @@ permalink: /projects/
 
 ---
 
-## 虹膜识别模型训练
+## 虹膜分割模型与生物识别几何
 
-基于 Python 深度学习框架开展虹膜识别模型训练，完成图像数据采集、清洗、预处理和数据增强，构建训练数据集并进行模型调参与效果评估。
+基于 4,433 张样本训练 DINOv2 双视图虹膜分割模型，完成 CVAT/Mask 数据协议、训练恢复、EMA 推理、GUI、自动标注和轻量检查点导出。项目同时记录了全脸照片上的漏标与虚标问题，并规划虹膜身份识别、椭圆拟合和标定后瞳距检测路线。
 
-**关键词：** Python、深度学习、图像预处理、数据增强、模型评估
+**关键词：** Python、PyTorch、DINOv2、语义分割、虹膜识别、椭圆拟合、瞳距检测
 
-[阅读技术文章：虹膜识别的数据处理与训练流程 →]({{ '/posts/iris-recognition-pipeline/' | relative_url }})
+[阅读技术文章：从虹膜分割到识别与瞳距检测 →]({{ '/posts/iris-recognition-pipeline/' | relative_url }})
+
+[查看 GitHub 项目仓库 →](https://github.com/sheeplhy/iris-segmentation-model)
 
 ---
 

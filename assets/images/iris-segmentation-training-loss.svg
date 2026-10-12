@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Training loss over twelve epochs</title>
+  <desc id="desc">Training loss decreases from 1.489 at epoch one to 0.218 at epoch twelve.</desc>
+  <rect width="1200" height="520" rx="24" fill="#f7fafc"/>
+  <text x="72" y="58" fill="#102a43" font-family="Segoe UI,Arial" font-size="30" font-weight="700">Training loss · 12 epochs</text>
+  <text x="72" y="88" fill="#627d98" font-family="Segoe UI,Arial" font-size="16">4,433 samples · effective batch 8 · no independent validation split</text>
+  <g stroke="#d9e2ec" stroke-width="1">
+    <path d="M90 130H1140M90 215H1140M90 300H1140M90 385H1140M90 470H1140"/>
+  </g>
+  <g fill="#627d98" font-family="Segoe UI,Arial" font-size="14">
+    <text x="42" y="135">1.6</text><text x="42" y="220">1.2</text><text x="48" y="305">0.8</text><text x="48" y="390">0.4</text><text x="48" y="475">0.0</text>
+    <text x="82" y="500">1</text><text x="555" y="500">6</text><text x="1125" y="500">12</text>
+  </g>
+  <path d="M90 153 L185 335 L280 385 L375 386 L470 402 L565 405 L660 409 L755 420 L850 420 L945 422 L1040 420 L1140 424" fill="none" stroke="#1677ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#fff" stroke="#1677ff" stroke-width="4">
+    <circle cx="90" cy="153" r="7"/><circle cx="185" cy="335" r="7"/><circle cx="280" cy="385" r="7"/><circle cx="375" cy="386" r="7"/><circle cx="470" cy="402" r="7"/><circle cx="565" cy="405" r="7"/><circle cx="660" cy="409" r="7"/><circle cx="755" cy="420" r="7"/><circle cx="850" cy="420" r="7"/><circle cx="945" cy="422" r="7"/><circle cx="1040" cy="420" r="7"/><circle cx="1140" cy="424" r="7"/>
+  </g>
+  <text x="100" y="145" fill="#102a43" font-family="Segoe UI,Arial" font-size="16" font-weight="700">1.489</text>
+  <text x="1040" y="452" fill="#102a43" font-family="Segoe UI,Arial" font-size="16" font-weight="700">0.218</text>
+</svg>
+

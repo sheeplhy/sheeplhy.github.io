@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Iris project roadmap</title>
+  <desc id="desc">The segmentation model branches toward iris recognition and ellipse-based pupillary distance estimation.</desc>
+  <rect width="1200" height="440" rx="28" fill="#081b2c"/>
+  <text x="60" y="62" fill="#fff" font-family="Segoe UI,Arial" font-size="30" font-weight="700">From segmentation to biometric geometry</text>
+  <g font-family="Segoe UI,Arial">
+    <rect x="65" y="155" width="270" height="140" rx="22" fill="#1769aa"/>
+    <text x="200" y="205" text-anchor="middle" fill="#fff" font-size="24" font-weight="700">Iris segmentation</text>
+    <text x="200" y="242" text-anchor="middle" fill="#d8efff" font-size="17">DINOv2 pretrained weights</text>
+    <text x="200" y="270" text-anchor="middle" fill="#d8efff" font-size="16">Mask · boundary · quality</text>
+    <rect x="520" y="85" width="610" height="125" rx="22" fill="#136f63"/>
+    <text x="825" y="130" text-anchor="middle" fill="#fff" font-size="24" font-weight="700">Iris recognition</text>
+    <text x="825" y="165" text-anchor="middle" fill="#dffcf6" font-size="17">Rubber-sheet normalization → embedding → ArcFace / Triplet</text>
+    <rect x="520" y="245" width="610" height="125" rx="22" fill="#855d0d"/>
+    <text x="825" y="290" text-anchor="middle" fill="#fff" font-size="24" font-weight="700">Ellipse fitting &amp; pupillary distance</text>
+    <text x="825" y="325" text-anchor="middle" fill="#fff3d4" font-size="17">(cx, cy, a, b, θ, confidence) × 2 → calibrated millimeters</text>
+  </g>
+  <g stroke="#79c8ff" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M335 210 H425 Q465 210 500 150 H520"/><path d="M335 240 H425 Q465 240 500 308 H520"/>
+  </g>
+</svg>

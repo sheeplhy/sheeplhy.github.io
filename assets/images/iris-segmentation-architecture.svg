@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Iris segmentation architecture</title>
+  <desc id="desc">Global and native-detail views flow through a DINOv2 encoder, semantic decoder and detail branch into four supervised outputs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#102b46"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2f80ed"/><stop offset="1" stop-color="#56ccf2"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0bab64"/><stop offset="1" stop-color="#3ddc97"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <text x="60" y="62" fill="#fff" font-family="Segoe UI,Arial" font-size="30" font-weight="700">Dual-view Iris Segmentation</text>
+  <text x="60" y="95" fill="#9cc5e7" font-family="Segoe UI,Arial" font-size="17">Global context + native-resolution detail</text>
+  <g font-family="Segoe UI,Arial" filter="url(#shadow)">
+    <rect x="60" y="145" width="185" height="90" rx="18" fill="#173c5f" stroke="#56ccf2"/>
+    <text x="152" y="180" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">Global view</text>
+    <text x="152" y="208" text-anchor="middle" fill="#b9d9ef" font-size="15">完整画面语义</text>
+    <rect x="60" y="265" width="185" height="90" rx="18" fill="#173c5f" stroke="#56ccf2"/>
+    <text x="152" y="300" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">Local crop</text>
+    <text x="152" y="328" text-anchor="middle" fill="#b9d9ef" font-size="15">原分辨率细节</text>
+    <rect x="335" y="175" width="210" height="150" rx="22" fill="url(#blue)"/>
+    <text x="440" y="235" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">DINOv2</text>
+    <text x="440" y="270" text-anchor="middle" fill="#eaf7ff" font-size="17">ViT-S/14 encoder</text>
+    <rect x="635" y="135" width="205" height="95" rx="20" fill="#6c4ad1"/>
+    <text x="738" y="175" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">DPT-lite</text>
+    <text x="738" y="203" text-anchor="middle" fill="#eee9ff" font-size="15">语义解码</text>
+    <rect x="635" y="270" width="205" height="95" rx="20" fill="#af5a27"/>
+    <text x="738" y="310" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">Detail branch</text>
+    <text x="738" y="338" text-anchor="middle" fill="#fff0e7" font-size="15">浅层边缘细节</text>
+    <rect x="930" y="135" width="210" height="230" rx="22" fill="url(#green)"/>
+    <text x="1035" y="178" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">Multi-task output</text>
+    <text x="1035" y="222" text-anchor="middle" fill="#effff8" font-size="17">Iris</text>
+    <text x="1035" y="255" text-anchor="middle" fill="#effff8" font-size="17">Eye region</text>
+    <text x="1035" y="288" text-anchor="middle" fill="#effff8" font-size="17">Pupil</text>
+    <text x="1035" y="321" text-anchor="middle" fill="#effff8" font-size="17">Occlusion boundary</text>
+  </g>
+  <g stroke="#8ed7ff" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M245 190 H310 Q325 190 335 215"/><path d="M245 310 H310 Q325 310 335 285"/>
+    <path d="M545 225 H610 Q625 225 635 190"/><path d="M545 275 H610 Q625 275 635 315"/>
+    <path d="M840 182 H900 Q915 182 930 215"/><path d="M840 318 H900 Q915 318 930 285"/>
+  </g>
+</svg>
+
