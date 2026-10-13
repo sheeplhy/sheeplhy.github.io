@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">我对高通 Camera ISP 图像链路的阶段性理解</title>
+  <desc id="desc">从传感器 RAW 经过 IFE、BPS、IPE 到预览、录像和拍照输出的简化学习示意图。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3f7ff"/><stop offset="1" stop-color="#eefbf8"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#246bfd"/><stop offset="1" stop-color="#11a887"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#15325b" flood-opacity=".12"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10z" fill="#7d8da7"/></marker>
+  </defs>
+  <rect width="1200" height="520" rx="34" fill="url(#bg)"/>
+  <text x="70" y="74" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#246bfd" letter-spacing="3">LEARNING MAP · 原创示意</text>
+  <text x="70" y="122" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#0b172a">我先看清数据流，再理解每一个调试页面</text>
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(55 190)"><rect width="185" height="180" rx="24" fill="#fff"/><circle cx="92" cy="55" r="30" fill="#dce8ff"/><circle cx="92" cy="55" r="13" fill="#246bfd"/><text x="92" y="116" text-anchor="middle" font-size="22" font-weight="700" fill="#0b172a">Sensor RAW</text><text x="92" y="146" text-anchor="middle" font-size="14" fill="#64748b">Bayer · 曝光输入</text></g>
+    <g transform="translate(300 190)"><rect width="205" height="180" rx="24" fill="#fff"/><rect x="71" y="26" width="63" height="58" rx="14" fill="#dce8ff"/><text x="102" y="64" text-anchor="middle" font-size="18" font-weight="700" fill="#246bfd">IFE</text><text x="102" y="116" text-anchor="middle" font-size="22" font-weight="700" fill="#0b172a">实时前端</text><text x="102" y="146" text-anchor="middle" font-size="14" fill="#64748b">预览 / 录像主链路</text></g>
+    <g transform="translate(565 190)"><rect width="205" height="180" rx="24" fill="#fff"/><rect x="71" y="26" width="63" height="58" rx="14" fill="#dff7ef"/><text x="102" y="64" text-anchor="middle" font-size="18" font-weight="700" fill="#118a71">BPS</text><text x="102" y="116" text-anchor="middle" font-size="22" font-weight="700" fill="#0b172a">离线 RAW</text><text x="102" y="146" text-anchor="middle" font-size="14" fill="#64748b">拍照 / 高质量处理</text></g>
+    <g transform="translate(830 190)"><rect width="205" height="180" rx="24" fill="#fff"/><rect x="71" y="26" width="63" height="58" rx="14" fill="#eee7ff"/><text x="102" y="64" text-anchor="middle" font-size="18" font-weight="700" fill="#7755d9">IPE</text><text x="102" y="116" text-anchor="middle" font-size="22" font-weight="700" fill="#0b172a">RGB / YUV</text><text x="102" y="146" text-anchor="middle" font-size="14" fill="#64748b">ANR · TF · 输出优化</text></g>
+  </g>
+  <g stroke="#7d8da7" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M240 280H288"/><path d="M505 280H553"/><path d="M770 280H818"/><path d="M1035 280H1122"/></g>
+  <g transform="translate(1070 211)" font-family="Arial, sans-serif"><rect width="90" height="138" rx="20" fill="url(#accent)"/><text x="45" y="48" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">预览</text><text x="45" y="80" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">录像</text><text x="45" y="112" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">拍照</text></g>
+  <text x="70" y="448" font-family="Arial, sans-serif" font-size="17" fill="#52647f">学习重点：同名模块不等于同一套结果；路径、位深、触发条件和目标场景都要分别确认。</text>
+  <text x="70" y="480" font-family="Arial, sans-serif" font-size="14" fill="#7d8da7">此图为个人学习阶段的简化模型，不代表 Qualcomm 官方架构图或完整产品实现。</text>
+</svg>

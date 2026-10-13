@@ -33,10 +33,10 @@ projects:
     tag: AI / OpenCV
     text: 汇总虹膜识别训练与人脸检测项目中的数据处理、模型评估和工程实现。
     link: /posts/iris-recognition-pipeline/
-  - name: ESP32-S3 智能导盲杖
-    tag: Embedded
-    text: 融合视觉、惯性、超声波、GPS 与语音模块，完成多传感器辅助原型。
-    link: /posts/esp32-s3-smart-cane/
+  - name: 高通 ISP 学习与调试
+    tag: Camera / ISP
+    text: 从图像链路出发，记录 Chromatix 工具、色彩、Tone Mapping、降噪和时域融合的学习方法。
+    link: /posts/qualcomm-isp-learning-notes/
 
 experience:
   - company: 雷鸟创新（深圳）有限公司

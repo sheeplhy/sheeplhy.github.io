@@ -57,13 +57,13 @@ permalink: /projects/
 
 ---
 
-## ESP32-S3 智能导盲杖
+## 高通 ISP 学习与调试实践
 
-基于 ESP32-S3-CAM 集成摄像头、MPU6050、超声波、GPS 和离线语音模块，实现跌倒检测、障碍物分级预警、路线偏离提醒与多模态反馈。
+从 CHI-CDK 与 Chromatix 工具入手，逐步建立 IFE、BPS、IPE 图像链路认知，并围绕白平衡、色彩校正、Tone Mapping、降噪和时域融合整理可复现的学习方法。
 
-**关键词：** ESP32-S3、嵌入式、计算机视觉、传感器融合、I2C
+**关键词：** Qualcomm、Camera、ISP、Chromatix、图像质量、调试方法
 
-[阅读技术文章：ESP32-S3 多传感器嵌入式实践 →]({{ '/posts/esp32-s3-smart-cane/' | relative_url }})
+[阅读技术文章：我的高通 ISP 学习心得 →]({{ '/posts/qualcomm-isp-learning-notes/' | relative_url }})
 
 ---
 
