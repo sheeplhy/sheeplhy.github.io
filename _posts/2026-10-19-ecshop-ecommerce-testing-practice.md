@@ -2,7 +2,7 @@
 layout: post
 title: "ECShop 电商平台测试实践：从业务流程到缺陷闭环"
 description: "一次围绕 ECShop 前后台流程、边界输入与基础安全配置展开的本地软件测试实践复盘。"
-date: 2026-10-19 15:00:00 +0800
+date: 2026-10-19 10:00:00 +0800
 categories: [软件测试, Web 测试, ECShop, 电商平台]
 permalink: /posts/ecshop-ecommerce-testing-practice/
 ---
