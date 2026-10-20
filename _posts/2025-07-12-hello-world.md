@@ -2,7 +2,7 @@
 layout: post
 title: "从这里开始：我的技术博客"
 description: 记录 iOS/Android App、计算机视觉、消费电子与嵌入式软件实践。
-date: 2025-07-12 09:00:00 +0800
+date: 2025-07-12 20:17:00 +0800
 categories: 随笔
 permalink: /posts/hello-world/
 ---

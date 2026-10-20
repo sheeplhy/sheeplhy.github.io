@@ -2,7 +2,7 @@
 layout: post
 title: "轻量化人脸考勤 1.2：我把最初的检测 Demo 重新做了一遍"
 description: "从手动输入姓名到本地人脸识别，我记录了这个 Windows 考勤小工具的三次迭代，以及真正落地前必须面对的边界。"
-date: 2026-10-20 09:00:00 +0800
+date: 2026-10-20 19:35:00 +0800
 categories: [计算机视觉, Python, OpenCV, 桌面应用]
 permalink: /posts/face-attendance-1-2/
 ---

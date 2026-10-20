@@ -2,7 +2,7 @@
 layout: post
 title: "明杖智联：一份未完成的物联网作品复盘"
 description: "我用 ESP32-S3-CAM 搭建智能辅助杖原型，完成基础硬件联通与激光测距灵敏度标定，但没有完成整机闭环和比赛答辩。"
-date: 2026-10-16 11:30:00 +0800
+date: 2025-08-06 19:43:00 +0800
 categories: [物联网, 嵌入式软件, 项目复盘]
 permalink: /posts/esp32-s3-smart-cane/
 ---

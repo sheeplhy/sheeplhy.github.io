@@ -2,7 +2,7 @@
 layout: post
 title: "从机器人到自动化产线：第26届立嘉智能装备展逛展随笔"
 description: "一次关于具身智能、工业机器人与自动化系统的现场观察，也让我重新思考软件、AI 与真实制造场景之间的距离。"
-date: 2026-06-02 20:30:00 +0800
+date: 2026-06-05 22:12:00 +0800
 categories: [展会随笔, 智能制造, 工业自动化, 机器人]
 permalink: /posts/lijia-intelligent-equipment-expo-2026/
 ---

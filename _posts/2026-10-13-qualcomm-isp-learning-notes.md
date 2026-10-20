@@ -2,7 +2,7 @@
 layout: post
 title: "我的高通 ISP 学习心得：从看参数到理解图像链路"
 description: "从 CHI-CDK、Chromatix 和 IFE/BPS/IPE 入手，记录我学习色彩、Tone Mapping、降噪与时域融合时建立起来的调试方法。"
-date: 2026-10-13 09:30:00 +0800
+date: 2026-09-19 20:11:00 +0800
 categories: [Qualcomm, Camera, ISP, 图像处理]
 permalink: /posts/qualcomm-isp-learning-notes/
 ---

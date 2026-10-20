@@ -2,7 +2,7 @@
 layout: post
 title: "我用 Python 与 OpenCV 做了一个轻量化人脸考勤工具"
 description: "从摄像头取帧、Haar 人脸检测到 Tkinter 交互和本地打卡记录，我完成了一次小型计算机视觉应用实践。"
-date: 2026-10-19 09:00:00 +0800
+date: 2025-09-21 21:08:00 +0800
 categories: [计算机视觉, Python, OpenCV, 桌面应用]
 permalink: /posts/opencv-face-attendance/
 ---
