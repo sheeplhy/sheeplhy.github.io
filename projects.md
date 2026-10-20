@@ -7,7 +7,7 @@ permalink: /projects/
 
 ## 专业软件工程实践
 
-以需求分析、模块拆分、代码管理、测试验证和问题闭环为主线组织项目，使用 Git 维护版本，通过 Markdown 持续沉淀设计说明、调试记录和技术文章，并关注后续自动化与 CI/CD 能力建设。
+以需求分析、模块拆分、代码管理、测试验证和问题闭环为主线组织项目，使用 Git 维护版本，通过 Markdown 持续沉淀设计说明、调试记录和项目记录，并关注后续自动化与 CI/CD 能力建设。
 
 **关键词：** 软件工程、Git、CI/CD、测试验证、工程文档
 
@@ -30,8 +30,6 @@ permalink: /projects/
 围绕移动端需求拆分、界面与功能实现、相机和多媒体能力、系统兼容性、测试与发布流程建立工程实践记录。
 
 **关键词：** iOS、Android、App、系统能力、软件工程
-
-[阅读技术文章：iOS / Android 系统 App 开发实践 →]({{ '/posts/ios-android-app-development/' | relative_url }})
 
 ---
 
@@ -72,5 +70,3 @@ permalink: /projects/
 围绕雷鸟 V4 智能眼镜 Camera 开展 ISP 影像链路调试与效果验证，覆盖 RAW 域处理、3A、降噪、色彩管理和画质问题定位，并配合研发完成迭代优化。
 
 **关键词：** ISP、AE、AWB、AF、图像质量、参数标定
-
-[阅读技术文章：智能眼镜 Camera / ISP 调试方法 →]({{ '/posts/rayneo-v4-camera-isp/' | relative_url }})

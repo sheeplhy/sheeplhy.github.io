@@ -28,7 +28,7 @@ projects:
   - name: 雷鸟 V4 Camera / ISP
     tag: Camera / ISP
     text: 围绕智能眼镜 Camera 影像链路，整理 3A、降噪、色彩和画质验证方法。
-    link: /posts/rayneo-v4-camera-isp/
+    link: /projects/
   - name: 计算机视觉识别实践
     tag: AI / OpenCV
     text: 汇总虹膜识别训练与人脸检测项目中的数据处理、模型评估和工程实现。
