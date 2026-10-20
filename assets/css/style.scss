@@ -186,6 +186,14 @@ img { max-width: 100%; }
 .prose th { background: var(--accent-soft); color: var(--text); }
 .prose .learning-note { margin: 28px 0; padding: 20px 22px; border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line)); border-radius: 16px; background: color-mix(in srgb, var(--accent-soft) 72%, transparent); }
 .prose .learning-note strong { color: var(--text); }
+.project-records { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 28px 0 8px; }
+.project-record { display: flex; min-height: 220px; flex-direction: column; padding: 24px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); box-shadow: 0 12px 38px rgba(30,67,106,.06); }
+.project-record-meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .04em; }
+.project-record h3 { margin: 28px 0 10px; font-size: 22px; line-height: 1.32; }
+.project-record h3 a { color: var(--text); text-decoration: none; }
+.project-record h3 a:hover { color: var(--accent); }
+.project-record p { margin: 0; color: var(--muted); font-size: 14px; }
+.project-record .text-link { margin-top: auto; padding-top: 22px; }
 .blog-index { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; padding-block: 60px 110px; }
 .blog-card { padding: 28px; }
 .blog-card-meta { display: flex; gap: 14px; color: var(--accent); }
@@ -231,7 +239,7 @@ img { max-width: 100%; }
   .about-photo-card { max-width: 220px; }
   .about-home-copy .about-lead { font-size: 17px; }
   .about-actions { align-items: flex-start; flex-direction: column; gap: 18px; }
-  .focus-grid, .blog-index { grid-template-columns: 1fr; }
+  .focus-grid, .blog-index, .project-records { grid-template-columns: 1fr; }
   .focus-card { min-height: 220px; }
   .focus-card h3 { margin-top: 36px; }
   .experience-media { min-height: 330px; }

@@ -13,6 +13,26 @@ permalink: /projects/
 
 ---
 
+## 项目记录
+
+以下记录与已发布文章自动同步，新增或删除文章后会一并更新。
+
+<section class="project-records" aria-label="项目记录列表">
+{% for post in site.posts %}
+  <article class="project-record">
+    <div class="project-record-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y.%m.%d' }}</time>
+      {% if post.categories.size > 0 %}<span>{{ post.categories | join: ' / ' }}</span>{% endif %}
+    </div>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p>{{ post.description | default: post.excerpt | strip_html | truncate: 120 }}</p>
+    <a class="text-link" href="{{ post.url | relative_url }}">查看记录 →</a>
+  </article>
+{% endfor %}
+</section>
+
+---
+
 ## DriveLink Hub：Windows 车载互联原型
 
 基于 .NET 8、WPF 与 MVVM 构建 Windows 车载娱乐前端，分别编排 Google Android Auto DHU 和 UxPlay/AirPlay 接收流程，并通过状态机、attempt id、独立进程与脱敏诊断处理连接生命周期和异常恢复。
