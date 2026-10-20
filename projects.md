@@ -41,9 +41,9 @@ permalink: /projects/
   <a class="project-entry" href="{{ '/posts/opencv-face-attendance/' | relative_url }}">
     <span class="project-entry-index">04</span>
     <span class="project-entry-body">
-      <span class="project-entry-meta">2026 · Python / OpenCV</span>
+      <span class="project-entry-meta">2026 · Python / OpenCV · 1.2</span>
       <strong>轻量化人脸考勤工具</strong>
-      <span class="project-entry-summary">我把摄像头取帧、Haar 人脸检测、Tkinter 界面和本地打卡记录串成了一个可运行的小工具，并明确区分“检测到人脸”和“识别出身份”。</span>
+      <span class="project-entry-summary">我把最初只能检测人脸的 Demo 重新做成了离线考勤客户端，补上 LBPH 身份识别、员工建档、SQLite 记录、升级备份和异常处理。</span>
     </span>
     <span class="project-entry-action">查看记录 →</span>
   </a>
