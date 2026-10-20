@@ -169,6 +169,7 @@ img { max-width: 100%; }
 .page-hero h1 { margin: 0; font-size: clamp(42px, 6vw, 68px); letter-spacing: -.05em; }
 .page-hero > p:last-child { max-width: 680px; margin: 20px 0 0; color: var(--muted); font-size: 18px; }
 .prose { max-width: 800px; padding-block: 64px 110px; }
+.prose.project-page { max-width: 1040px; }
 .prose h2 { margin: 2.4em 0 .7em; font-size: 30px; letter-spacing: -.03em; }
 .prose h3 { margin: 1.8em 0 .5em; font-size: 21px; }
 .prose p, .prose li { color: color-mix(in srgb, var(--text) 82%, var(--muted)); }
@@ -186,14 +187,15 @@ img { max-width: 100%; }
 .prose th { background: var(--accent-soft); color: var(--text); }
 .prose .learning-note { margin: 28px 0; padding: 20px 22px; border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line)); border-radius: 16px; background: color-mix(in srgb, var(--accent-soft) 72%, transparent); }
 .prose .learning-note strong { color: var(--text); }
-.project-records { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 28px 0 8px; }
-.project-record { display: flex; min-height: 220px; flex-direction: column; padding: 24px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); box-shadow: 0 12px 38px rgba(30,67,106,.06); }
-.project-record-meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .04em; }
-.project-record h3 { margin: 28px 0 10px; font-size: 22px; line-height: 1.32; }
-.project-record h3 a { color: var(--text); text-decoration: none; }
-.project-record h3 a:hover { color: var(--accent); }
-.project-record p { margin: 0; color: var(--muted); font-size: 14px; }
-.project-record .text-link { margin-top: auto; padding-top: 22px; }
+.project-directory { display: block; margin: 42px 0 34px; border-top: 1px solid var(--line); }
+.prose .project-entry { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; gap: 22px; align-items: start; padding: 30px 8px; border-bottom: 1px solid var(--line); color: var(--text); text-decoration: none; transition: background-color .18s ease, padding-inline .18s ease; }
+.prose .project-entry:hover { padding-inline: 16px; background: color-mix(in srgb, var(--accent-soft) 40%, transparent); }
+.project-entry-index { padding-top: 3px; color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.project-entry-body { display: grid; }
+.project-entry-meta { margin-bottom: 9px; color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: .03em; }
+.project-entry-body strong { font-size: 25px; line-height: 1.25; letter-spacing: -.025em; }
+.project-entry-summary { max-width: 610px; margin-top: 11px; color: var(--muted); font-size: 15px; line-height: 1.8; }
+.project-entry-action { padding-top: 31px; color: var(--text); font-size: 13px; font-weight: 700; white-space: nowrap; }
 .blog-index { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; padding-block: 60px 110px; }
 .blog-card { padding: 28px; }
 .blog-card-meta { display: flex; gap: 14px; color: var(--accent); }
@@ -239,7 +241,7 @@ img { max-width: 100%; }
   .about-photo-card { max-width: 220px; }
   .about-home-copy .about-lead { font-size: 17px; }
   .about-actions { align-items: flex-start; flex-direction: column; gap: 18px; }
-  .focus-grid, .blog-index, .project-records { grid-template-columns: 1fr; }
+  .focus-grid, .blog-index { grid-template-columns: 1fr; }
   .focus-card { min-height: 220px; }
   .focus-card h3 { margin-top: 36px; }
   .experience-media { min-height: 330px; }
@@ -253,6 +255,12 @@ img { max-width: 100%; }
   .post-row time { grid-column: 1 / -1; }
   .post-row p { display: none; }
   .page-hero { padding-block: 72px 42px; }
+  .project-directory { margin-top: 32px; }
+  .prose .project-entry { grid-template-columns: 34px minmax(0, 1fr); gap: 14px; padding: 24px 0; }
+  .prose .project-entry:hover { padding-inline: 8px; }
+  .project-entry-body strong { font-size: 21px; }
+  .project-entry-summary { font-size: 14px; line-height: 1.7; }
+  .project-entry-action { grid-column: 2; padding-top: 0; }
   .contact-section { padding-bottom: 72px; }
   .contact-panel { grid-template-columns: 1fr; padding: 30px 24px; border-radius: 24px; }
   .contact-copy h2 { font-size: clamp(36px, 11vw, 50px); }
