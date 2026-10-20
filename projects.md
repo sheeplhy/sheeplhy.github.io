@@ -38,7 +38,7 @@ permalink: /projects/
     <span class="project-entry-action">查看记录 →</span>
   </a>
 
-  <a class="project-entry" href="{{ '/posts/opencv-face-attendance/' | relative_url }}">
+  <a class="project-entry" href="{{ '/posts/face-attendance-1-2/' | relative_url }}">
     <span class="project-entry-index">04</span>
     <span class="project-entry-body">
       <span class="project-entry-meta">2026 · Python / OpenCV · 1.2</span>
